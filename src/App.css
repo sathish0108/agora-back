@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.canvas {
+  height: 100vh;
+}
+.play-btn {
+  position: absolute;
+  bottom: 74px;
+  left: 60%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+  font: 0.8125rem sans-serif;
+  outline: none;
+  z-index: 99999;
+  cursor: pointer;
+}
+.capture-btn {
+  position: absolute;
+  bottom: 74px;
+  left: 40%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+  font: 0.8125rem sans-serif;
+  outline: none;
+  z-index: 99999;
+  cursor: pointer;
+}
